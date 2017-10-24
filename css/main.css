@@ -27,6 +27,10 @@ ul li {
   margin: 5px;
 }
 
+li:hover {
+  color: #f6a831;
+}
+
 .logo-header {
   width: 60%;
 }
@@ -42,7 +46,48 @@ nav {
   transform: translateY(-50%);
 }
 
-
 .box-header {
   display: inline-block;
+}
+
+.logo-section {
+  width: 30%;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  width: 33%;
+}
+
+[class^="icon-"], [class*="icon-"] {
+  font-size: 40px;
+  transition: 1s;  
+}
+
+[class^="icon-"]:hover, [class*="icon-"]:hover {
+  color: #f6a831;
+}
+
+footer {
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  background-color: #f6a831;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #db922b;
 }
