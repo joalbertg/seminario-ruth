@@ -1,1 +1,1 @@
-*** Seminario-Ruth
+# Seminario-Ruth
